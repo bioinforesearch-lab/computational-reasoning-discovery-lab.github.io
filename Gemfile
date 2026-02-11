@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
-    gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Shim to forward ImageMagick "convert" calls to the ImageMagick 7+ `magick` command.
+exec magick "$@"
