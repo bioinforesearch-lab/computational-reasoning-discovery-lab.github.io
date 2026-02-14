@@ -3,7 +3,7 @@ layout: page
 title: Transformer-Based Operon Prediction Using Textual Representations of Gene Pairs
 description: A transformer-based method for bacterial operon prediction that frames adjacent gene pairs as a text classification task, enabling robust, cross-species performance using serialized genomic features without reliance on curated networks or extensive annotation.
 img: assets/img/LLM.png
-importance: 2
+importance: 1
 category: Finished
 ---
 
