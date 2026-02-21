@@ -5,6 +5,7 @@ description: A transformer-based method for bacterial operon prediction that fra
 img: assets/img/LLM.jpeg
 importance: 1
 category: Finished
+tag: Genomics & Bioinformatics
 ---
 
 {% include figure.html path="assets/img/LLM.jpeg" title="Transformer-Based Operon Prediction" class="img-fluid rounded z-depth-1" %}

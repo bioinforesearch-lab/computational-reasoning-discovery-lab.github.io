@@ -3,8 +3,9 @@ layout: page
 title: Machine Learning-Based Detection of Keratoconus Using Zernike Polynomials Derived from Corneal Pachymetry Profile
 description: An interpretable machine learning framework for keratoconus detection that leverages Zernike polynomial representations of corneal thickness maps to achieve high accuracy, with a special focus on early keratoconus cases.
 img: assets/img/Zernike.jpeg
-importance: 2
+importance: 3
 category: Finished
+tag: Machine Learning in Medicine
 ---
 
 {% include figure.html path="assets/img/Zernike.jpeg" title="Zernike-Based Keratoconus Classification" class="img-fluid rounded z-depth-1" %}

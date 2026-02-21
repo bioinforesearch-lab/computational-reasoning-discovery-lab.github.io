@@ -1,7 +1,7 @@
 ---
 layout: page
 name: Zein Shehabeddine
-role: MSc
+role: MSc Computer Science
 photo: zein-shehab.jpeg
 email: zein@zeinshehab.com
 website: https://zeinshehab.com

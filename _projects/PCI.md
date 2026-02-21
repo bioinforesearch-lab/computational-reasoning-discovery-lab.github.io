@@ -5,6 +5,7 @@ description: A data-driven re-examination of the Inferior–Superior (I–S) ind
 img: assets/img/PCI.jpeg
 importance: 3
 category: Finished
+tag: Machine Learning in Medicine
 ---
 
 {% include figure.html path="assets/img/PCI.jpeg" title="Machine Learning-Enhanced Keratoconus Detection via Posterior Curvature" class="img-fluid rounded z-depth-1" %}

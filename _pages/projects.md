@@ -5,54 +5,69 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 1
-display_categories: [Ongoing, Finished]
-horizontal: true
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+<!-- Projects index: 4 quadrants linking to tag pages -->
+<div class="projects-index">
   <div class="container">
-    <div class="row row-cols-1">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h1>Research Areas</h1>
+        <p>Select a topic to view related projects.</p>
+      </div>
     </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
+    <div class="row">
+      <div class="col-12 col-md-6 mb-4">
+        <a href="/projects/machine-learning-in-medicine/">
+          <div class="card hoverable quad-card">
+            {% include figure.html path="assets/img/Stroma.jpeg" alt="Machine Learning in Medicine" %}
+            <div class="card-body">
+              <h3 class="card-title">Machine Learning in Medicine</h3>
+              <p class="card-text">Clinical and translational ML applications.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-6 mb-4">
+        <a href="/projects/genomics-bioinformatics/">
+          <div class="card hoverable quad-card">
+            {% include figure.html path="assets/img/project_4.jpeg" alt="Genomics & Bioinformatics" %}
+            <div class="card-body">
+              <h3 class="card-title">Genomics & Bioinformatics</h3>
+              <p class="card-text">Sequence analysis, variant interpretation.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 mb-4">
+        <a href="/projects/multi-omics-analysis/">
+          <div class="card hoverable quad-card">
+            {% include figure.html path="assets/img/VC.jpeg" alt="Multi-Omics Analysis" %}
+            <div class="card-body">
+              <h3 class="card-title">Multi-Omics Analysis</h3>
+              <p class="card-text">Integrative analysis across omic layers.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-6 mb-4">
+        <a href="/projects/representation-learning/">
+          <div class="card hoverable quad-card">
+            {% include figure.html path="assets/img/DP_header.jpeg" alt="Representation Learning" %}
+            <div class="card-body">
+              <h3 class="card-title">Representation Learning</h3>
+              <p class="card-text">Learned representations for biomedical data.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
   </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
 </div>

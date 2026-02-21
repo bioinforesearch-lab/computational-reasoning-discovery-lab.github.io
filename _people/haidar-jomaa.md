@@ -1,7 +1,7 @@
 ---
 layout: page
 name: Haidar Jomaa
-role: MSc
+role: MSc Computer Science
 photo: haidar-jomaa.jpeg
 email: haj26@mail.aub.edu
 website: https://haidarjomaa.com
