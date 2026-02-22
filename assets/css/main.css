@@ -97,6 +97,40 @@ body.sticky-bottom-footer {
 /*****************************************************************************
 * Projects
 *****************************************************************************/
+.project-item .card {
+  max-height: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.project-item .project-thumb-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+.project-item .card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.75rem;
+  overflow: hidden;
+}
+.project-item .card-title {
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.15;
+  /* Allow wrapping so full title is visible; limit to three lines visually */
+  display: block;
+  max-height: 3.45rem;
+  overflow: visible;
+  word-break: break-word;
+}
+.project-item .card-text {
+  display: none;
+}
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
