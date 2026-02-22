@@ -1,19 +1,23 @@
 <!-- _includes/projects.html -->
 <div class="project-item">
-  {% if project.redirect -%}
-  <a href="{{ project.redirect }}">
+  <!-- DEBUG: project.title={{ project.title | inspect }} project.data.title={{ project.data.title | inspect }} project.url={{ project.url | inspect }} project.data.url={{ project.data.url | inspect }} project.img={{ project.img | inspect }} project.data.img={{ project.data.img | inspect }} -->
+  {% assign _redirect = project.redirect | default: project.data.redirect %}
+  {% assign _url = project.url | default: project.data.url %}
+  {% if _redirect -%}
+  <a href="{{ _redirect }}">
     {%- else -%}
-    <a href="{{ project.url | relative_url }}">
+    <a href="{{ _url | relative_url }}">
       {%- endif %}
       <div class="card hoverable">
-        {%- if project.img %}
+        {%- assign _img = project.img | default: project.data.img -%}
+        {%- if _img -%}
         {%- include figure.html
-          path=project.img
+          path=_img
           alt="project thumbnail"
           class="project-thumb-img" -%}
         {%- endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ project.title }}</h2>
+          <h2 class="card-title">{{ project.title | default: project.data.title }}</h2>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
             <div class="github-icon">
@@ -23,7 +27,7 @@
               {%- if project.github_stars -%}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                 <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
+                <span id="{{ project.github_stars | default: project.data.github_stars }}-stars"></span>
               </span>
               {%- endif %}
             </div>

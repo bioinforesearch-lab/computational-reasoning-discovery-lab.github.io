@@ -5,7 +5,7 @@ description: A resource-efficient approach to variant calling that replaces 2D p
 img: assets/img/VC.jpeg
 importance: 3
 category: Ongoing
-tag: Multi Omics Analysis
+tag: Multi-Omics-Analysis
 ---
 
 {% include figure.html path="assets/img/VC.jpeg" title="Variant Calling Using 1D Feature Vectors" class="img-fluid rounded z-depth-1" %}

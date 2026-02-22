@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Courses taught by the lab and capstone projects supervised.
+description: Courses taught and capstone projects supervised by the lab.
 nav: true
 nav_order: 4
 ---

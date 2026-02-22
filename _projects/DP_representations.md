@@ -5,7 +5,7 @@ description: A systematic study of how differential privacy reshapes neural repr
 img: assets/img/DP_rep.jpeg
 importance: 2
 category: Ongoing
-tag: Representation Learning
+tag: Representation-Learning
 ---
 
 {% include figure.html path="assets/img/DP_rep.jpeg" title="Effects of Differential Privacy on Representation Learning" class="img-fluid rounded z-depth-1" %}

@@ -5,7 +5,7 @@ description: This project compares MRI segmentation models trained with differen
 img: assets/img/DP_header.jpeg
 importance: 4
 category: Ongoing
-tag: Representation Learning
+tag: Representation-Learning
 ---
 
 {% include figure.html path="assets/img/DP_header.jpeg" title="Differential Privacy in 3D MRI Segmentation Models" class="img-fluid rounded z-depth-1" %}

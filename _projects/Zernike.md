@@ -5,7 +5,7 @@ description: An interpretable machine learning framework for keratoconus detecti
 img: assets/img/Zernike.jpeg
 importance: 3
 category: Finished
-tag: Machine Learning in Medicine
+tag: Machine-Learning-in-Medicine
 ---
 
 {% include figure.html path="assets/img/Zernike.jpeg" title="Zernike-Based Keratoconus Classification" class="img-fluid rounded z-depth-1" %}

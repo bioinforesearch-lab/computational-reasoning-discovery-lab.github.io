@@ -5,7 +5,7 @@ description: A deep learning framework for predicting corneal epithelial elevati
 img: assets/img/Stroma.jpeg
 importance: 1
 category: Ongoing
-tag: Machine Learning in Medicine
+tag: Machine-Learning-in-Medicine
 ---
 
 {% include figure.html path="assets/img/Stroma.jpeg" title="Deep Learning-Based Corneal Epithelial Remodeling Prediction" class="img-fluid rounded z-depth-1" %}

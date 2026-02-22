@@ -5,7 +5,7 @@ description: A postoperative, single-exam classification framework for detecting
 img: assets/img/post_lvc.jpeg
 importance: 1
 category: Finished
-tag: Machine Learning in Medicine
+tag: Machine-Learning-in-Medicine
 ---
 
 {% include figure.html path="assets/img/post_lvc.jpeg" title="Post-LVC Ectasia Detection from Raw Corneal Tomography" class="img-fluid rounded z-depth-1" %}

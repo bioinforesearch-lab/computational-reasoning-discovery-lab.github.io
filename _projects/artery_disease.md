@@ -5,7 +5,7 @@ description: Machine learning–based risk stratification in peripheral artery d
 img: assets/img/project_3.jpeg
 importance: 2
 category: Ongoing
-tag: Machine Learning in Medicine
+tag: Machine-Learning-in-Medicine
 ---
 
 {% include figure.html path="assets/img/project_3.jpeg" title="Peripheral Artery Disease and CLTI Risk Modeling" class="img-fluid rounded z-depth-1" %}

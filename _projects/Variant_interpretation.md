@@ -5,7 +5,7 @@ description: Developed a hybrid framework that combines supervised learning with
 img: assets/img/project_2.jpeg
 importance: 2
 category: Finished
-tag: Multi Omics Analysis
+tag: Multi-Omics-Analysis
 ---
 
 {% include figure.html path="assets/img/project_2.jpeg" title="An Equity‑Driven Framework for BRCA1/2 Variant Interpretation in Data‑Limited Populations" class="img-fluid rounded z-depth-1" %}

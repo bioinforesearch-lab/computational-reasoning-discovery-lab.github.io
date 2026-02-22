@@ -5,7 +5,7 @@ description: A study presenting a machine learning approach for screening autism
 img: assets/img/project_1.jpeg
 importance: 1
 category: Finished
-tag: Machine Learning in Medicine
+tag: Machine-Learning-in-Medicine
 ---
 
 {% include figure.html path="assets/img/project_1.jpeg" title="Screening autism spectrum disorder in children using machine learning on speech transcripts" class="img-fluid rounded z-depth-1" %}

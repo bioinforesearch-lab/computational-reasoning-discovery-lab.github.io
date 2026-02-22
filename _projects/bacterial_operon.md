@@ -5,7 +5,7 @@ description: Large-scale inference and analysis of bacterial gene pair relations
 img: assets/img/project_4.jpeg
 importance: 3
 category: Ongoing
-tag: Genomics & Bioinformatics
+tag: Genomics-Bioinformatics
 ---
 
 {% include figure.html path="assets/img/project_4.jpeg" title="Bacterial Operon and Gene Pair Modeling" class="img-fluid rounded z-depth-1" %}

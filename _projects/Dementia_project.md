@@ -5,7 +5,7 @@ description: This project develops an attention-based AI model for early dementi
 img: assets/img/dementia_project.jpeg
 importance: 3
 category: Ongoing
-tag: Machine Learning in Medicine
+tag: Machine-Learning-in-Medicine
 ---
 
 {% include figure.html path="assets/img/dementia_project.jpeg" title="Differential Privacy in 3D MRI Segmentation Models" class="img-fluid rounded z-depth-1" %}
