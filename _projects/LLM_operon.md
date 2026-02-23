@@ -10,7 +10,7 @@ tag: Genomics-Bioinformatics
 
 {% include figure.html path="assets/img/LLM.jpeg" title="Transformer-Based Operon Prediction" class="img-fluid rounded z-depth-1" %}
 
-**Code:** [https://github.com/BasselFakhry/Operons_LLMs](https://github.com/BasselFakhry/Operons_LLMs)
+**Code:** [https://github.com/Core-Aub/Operons_LLMs](https://github.com/Core-Aub/Operons_LLMs)
 
 **Abstract**
 

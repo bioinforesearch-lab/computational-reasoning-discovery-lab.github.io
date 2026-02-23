@@ -11,4 +11,4 @@ category: Capstone Projects
 
 BetterReads is a social network that connects reading enthusiasts worldwide, revolutionizing how they engage with literature. With its sleek, intuitive design, BetterReads makes discovering, tracking, and discussing books a breeze. This platform is created for today’s book lovers, blending reading and social interaction. Positioning itself as an alternative to GoodReads, BetterReads offers a more engaging user experience. Its features cater to the needs of contemporary readers, ensuring a community and dynamic literary exploration.
 
-BetterReads demo video: https://youtu.be/GXuRMeieBZ4?si=8BgktWvWkQnG6UKh
+**Demo video:** [https://youtu.be/GXuRMeieBZ4?si=8BgktWvWkQnG6UKh](https://youtu.be/GXuRMeieBZ4?si=8BgktWvWkQnG6UKh)
