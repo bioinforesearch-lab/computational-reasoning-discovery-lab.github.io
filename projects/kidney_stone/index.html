@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Machine Learning in Medicine | Computational Reasoning and Discovery Lab</title>
+    <title>Automated Kidney Stone Segmentation from Flexible Ureteroscopy Videos Using a U-Net Model | Computational Reasoning and Discovery Lab</title>
     <meta name="author" content="Rida  Assaf">
-    <meta name="description" content="The Computational Reasoning and Discovery Lab develops computational approaches for biomedical discovery, spanning genomics, bioinformatics, and precision medicine.
-">
+    <meta name="description" content="A Preliminary Feasibility Study">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%AC&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://bioinforesearch-lab.github.io/projects/machine-learning-in-medicine/">
+    <link rel="canonical" href="https://bioinforesearch-lab.github.io/projects/kidney_stone/">
     
     <!-- Dark Mode -->
     
@@ -101,346 +100,32 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Machine Learning in Medicine</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">Automated Kidney Stone Segmentation from Flexible Ureteroscopy Videos Using a U-Net Model</h1>
+            <p class="post-description">A Preliminary Feasibility Study</p>
           </header>
 
           <article>
-            
-<h2 id="ongoing">Ongoing</h2>
-
-<div class="row">
-  
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/stroma_epithelia/">
-          <div class="card hoverable">
-            
-              <figure>
+            <figure>
 
   <picture>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/Stroma.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/kidney_stone.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Automated Kidney Stone Segmentation from Flexible Ureteroscopy Videos" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
 </figure>
 
-            
+<p><strong>Abstract</strong></p>
 
-            <div class="card-body">
-              <h2 class="card-title">Learning Corneal Epithelial Remodeling from Stromal Geometry Using Deep Neural Networks</h2>
+<p>Background: Manual identification of kidney stones during flexible ureteroscopy can be challenging due to motion, variable illumination, bleeding, dust from fragmentation, and limited visual contrast. While machine learning has been applied to nephrolithiasis using radiological imaging, relatively few studies have explored direct segmentation of kidney stones from ureteroscopic video, which is most relevant for intraoperative guidance.</p>
 
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
+<p>Methods: We conducted a preliminary feasibility study using 12 recorded flexible ureteroscopy procedure videos from 12 distinct patients (approximately 11 hours of footage). Frames were extracted and annotated using a semi-automated pipeline combining manual bounding boxes with automated mask generation. A 2D U-Net model with a DenseNet-121 encoder was trained to segment kidney stones from video frames. Data were split at the video and patient level into training (8 videos), validation (2 videos), and test (2 videos) sets. Model performance was evaluated using pixel accuracy and Dice coefficient, and inference speed was measured on an NVIDIA T4 GPU.</p>
 
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/artery_disease/">
-          <div class="card hoverable">
-            
-              <figure>
+<p>Results: On the validation set, the model achieved a pixel accuracy of 94% and a Dice coefficient of 73%. On the held-out test set, it achieved a pixel accuracy of 92% with a Dice coefficient of 76%. Segmentation performance was highest when stones were clearly visible and degraded under challenging visual conditions such as bleeding, dense dust, and severe motion blur. The average inference time was 32.85 ms per frame, corresponding to approximately 30 frames per second.</p>
 
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/project_3.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Peripheral Artery Disease and CLTI Risk Modeling</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/multiple_scr/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/multiple_scr.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Machine Learning–Driven Personalized Prediction of Disease-Modifying Therapy in Multiple Sclerosis</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/Dementia_project/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/dementia_project.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">AI-Based Dementia Detection in Lebanese Arabic</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-</div>
-
-<h2 id="finished">Finished</h2>
-
-<div class="row">
-  
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/Autism/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/project_1.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Screening autism spectrum disorder in children using machine learning on speech transcripts</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/LVC_ectasia/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/post_lvc.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Raw versus Engineered Tomographic Representations for Post–Laser Vision Correction Ectasia Diagnosis</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/metabolic_syndrom/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/metabolic_syndrom.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Attention-Based Deep Learning for Predicting Metabolic Syndrome after 6 Months of Antidepressant Treatment in Major Depression</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/kidney_stone/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/kidney_stone.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Automated Kidney Stone Segmentation from Flexible Ureteroscopy Videos Using a U-Net Model</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/PCI/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/PCI.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Revisiting the Inferior-Superior (I-S) Value Metric using Machine Learning for Early Detection of Keratoconus</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-    <div class="col-12 col-md-4 mb-4">
-      <div class="project-item">
-        <a href="/projects/Zernike/">
-          <div class="card hoverable">
-            
-              <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Zernike.jpeg" class="project-thumb-img" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            
-
-            <div class="card-body">
-              <h2 class="card-title">Machine Learning-Based Detection of Keratoconus Using Zernike Polynomials Derived from Corneal Pachymetry Profile</h2>
-
-              <div class="row ml-1 mr-1 p-0">
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  
-</div>
-
+<p>Conclusion: This study demonstrates the feasibility of deep learning–based kidney stone segmentation from real-world flexible ureteroscopy video frames. While results are preliminary and limited by dataset size, single-center data, and lack of clinical integration, the findings highlight both the potential and the challenges of intraoperative video-based stone segmentation. Future work will focus on dataset expansion, multi-center validation, and integration into real-time surgical workflows for controlled evaluation.</p>
 
           </article>
 
